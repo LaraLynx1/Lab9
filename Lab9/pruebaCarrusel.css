@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.btn-redondo {
+  border-radius: 50%;
+  padding: 2rem;
+  background-color: black;
+  width: 5rem;
+  height: 5rem;
+  color: white;
+  z-index: 10;
+}
+
+.contenedor-carrusel {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  height: 500px;
+}
+
+.contenedor-carrusel2 {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  height: 500px;
+}
+
+.roll {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.roll2 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.tarjeta {
+  height: 500px;
+  position: absolute;
+  top: 0;
+  width: 300px;
+  background-color: gainsboro;
+}
+
+.poster {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.bxs-user-pin {
+  font-size: 20pt;
+  margin-top: 25px;
+  margin-left: 30px;
+  color: white;
+}
+
+.bx-star-tamano {
+  font-size: 16pt;
+  margin-top: 3px;
+  margin-left: 7px;
+}
+
+.bx-star-rellena {
+  color: yellow;
+}
+
+.rating-box {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+  background-color: rgb(198, 142, 58);
+}
+
+.estrellas {
+  display: flex;
+  /* width: 90%; */
+}
+
+.txtr {
+  color: white;
+  font-size: 20px;
+  margin: 4px 8px;
+}
+
+.favoritos {
+  /* width: 10%; */
+  display: flex;
+  justify-content: center;
+  margin-right: 16px;
+}
