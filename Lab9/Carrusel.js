@@ -117,3 +117,21 @@ class Carrusel {
     }); */
   }
 }
+
+const carruselViejo = new Carrusel(
+  "roll",
+  dataPopulares,
+  "izquierdo",
+  "derecho",
+  "contenedor-carrusel",
+  1
+);
+
+const carruselNuvo = new Carrusel(
+  "roll2",
+  dataRecomndados,
+  "izquierdo2",
+  "derecho2",
+  "contenedor-carrusel2",
+  2
+);
