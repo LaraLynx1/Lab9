@@ -88,19 +88,3 @@ btnIzquierdo.addEventListener("click", (e) => {
 
   moverHastaFilme(carrusel, filmeActual, filmeDestino);
 }); */
-
-const carruselViejo = new Carrusel(
-  "roll",
-  dataPopulares,
-  "izquierdo",
-  "derecho",
-  "contenedor-carrusel"
-);
-
-const carruselNuvo = new Carrusel(
-  "roll2",
-  dataRecomndados,
-  "izquierdo2",
-  "derecho2",
-  "contenedor-carrusel2"
-);
