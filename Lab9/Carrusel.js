@@ -6,10 +6,12 @@ class Carrusel {
     data,
     clsBtnIzquierdo,
     clsBtnDerecho,
-    contenedorCarrusel
+    contenedorCarrusel,
+    idLista
   ) {
     this.clsRoll = clsRoll;
     this.data = data;
+    this.idLista = idLista;
     this.contenedorPeliculas = document.getElementById(this.clsRoll);
 
     this.llenarListaPeliculas();
@@ -94,7 +96,8 @@ class Carrusel {
   pintarCarrusel() {
     this.listadoPeliculas.forEach((pelicula) => {
       this.contenedorPeliculas.innerHTML += pelicula.crearHtmlPoster(
-        pelicula.id
+        pelicula.id,
+        this.idLista
       );
     });
   }
@@ -109,8 +112,8 @@ class Carrusel {
   setFilmePosition(filme, index) {
     filme.style.left = 300 * index + "px";
 
-    filme.addEventListener("click", (e) => {
+    /*  filme.addEventListener("click", (e) => {
       console.log(e.target.src);
-    });
+    }); */
   }
 }
